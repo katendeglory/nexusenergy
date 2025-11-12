@@ -42,7 +42,7 @@
   <div class={`bg-br-white text-gray-950 font-light w-full layout`} id="home">
     <NavBar />
     <slot />
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 {/if}
 

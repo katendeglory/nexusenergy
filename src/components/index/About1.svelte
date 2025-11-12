@@ -137,27 +137,10 @@
                 provinces.
               </p>
             </div>
-
-            <!-- Partners -->
-            <div class="max-w-3xl">
-              <h3
-                class="text-2xl font-semibold text-gray-800 mb-4 flex items-center gap-2"
-              >
-                <span class="inline-block w-1.5 h-6 bg-emerald-600 rounded"
-                ></span>
-                Partners
-              </h3>
-              <p class="text-gray-600 leading-relaxed">
-                We collaborate with local cooperatives, donors, and technical
-                institutions to ensure every installation is built for long-term
-                success. Together, we create frameworks for sustainable growth,
-                knowledge sharing, and locally managed energy systems.
-              </p>
-            </div>
           </div>
         </div>
         <div
-          class="flex items-center justify-center px-2 md:px-4 mx-auto max-w-[30rem] min-h-[65vh] md:min-h-min"
+          class="hidden md:flex items-center justify-center px-2 md:px-4 mx-auto max-w-[25rem] min-h-[65vh] md:min-h-min"
         >
           <img src="/favicon.png" alt="logo" />
         </div>

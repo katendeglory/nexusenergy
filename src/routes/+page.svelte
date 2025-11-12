@@ -19,17 +19,17 @@
 <Hero />
 <!--  -->
 <About1 />
-<!-- <ShowCase /> -->
 <About2 />
+<ShowCase />
 <!--  -->
 
 <!--  -->
-<Services />
+<!-- <Services /> -->
 <!--  -->
 
 <!-- <SectionList1 /> -->
 <!-- <Gallery /> -->
 
 <!-- <Team /> -->
-<Contact2 />
-<Contact1 />
+<!-- <Contact2 /> -->
+<!-- <Contact1 /> -->

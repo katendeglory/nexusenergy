@@ -51,14 +51,15 @@
             <div
               class="h-font tracking-wider font-extralight uppercase text-white glassmorph-0 px-2 py-2 sm:px-4 sm:py-4 rounded-md border border-white/10 text-base lg:text-xl md:mr-8"
             >
-              Avec Nexus Energy Group, Optez pour une maison ou un bâtiment
-              Earth et devenez votre propre fournisseur d'énergie.
+              Reliable rural electrification with small-scale hydropower.
+              Practical, locally-led solutions that power homes, farms and small
+              industry. built to last.
             </div>
             <div class="w-full md:w-[12.5rem] flex flex-col justify-between">
               <span
                 class="animate-pulse hidden md:inline text-base md:mb-3 lg:mb-2 h-font font-thin uppercase tracking-widest"
               >
-                Cliquez ici pour nous Contacter
+                Click here to contact us
               </span>
               <a
                 href="/#contact"
@@ -72,7 +73,7 @@
                 <span class="material-symbols-outlined text-3xl md:hidden">
                   enable
                 </span>
-                <span class="md:hidden ml-2 capitalize"> Nous Contacter </span>
+                <span class="md:hidden ml-2 capitalize"> Contact US </span>
               </a>
             </div>
           </div>
@@ -84,20 +85,20 @@
 
 <div class="bg-patterns">
   <Container>
-    <div class="py-24 sm:py-14">
+    <div class="">
       <div class="mx-auto max-w-[50rem] pt-10">
-        SBE est votre partenaire pour l'étude, le conseil et la réalisation de
-        solutions énergétiques vertes. Nous utilisons l'énergie inépuisable du
-        soleil pour alimenter vos maison ou vos bâtiments, vos industries et
-        autre grand projet en électricité. Les particuliers, grandes, petites et
-        entreprises publiques peuvent tous venir à nous.
-
-        <div class="my-2"></div>
-
-        Smart Business Energy offre des services de consultance, d'audit et
-        d'analyse énergétique, avec présentation d'études et de solutions
-        techniques permettant d'accroître l'efficacité des équipements et
-        installations.
+        <h3
+          class="text-2xl font-semibold text-gray-800 mb-4 flex items-center gap-2"
+        >
+          <span class="inline-block w-1.5 h-6 bg-emerald-600 rounded"></span>
+          Partners
+        </h3>
+        <p class="text-gray-600 leading-relaxed">
+          We collaborate with local cooperatives, donors, and technical
+          institutions to ensure every installation is built for long-term
+          success. Together, we create frameworks for sustainable growth,
+          knowledge sharing, and locally managed energy systems.
+        </p>
 
         <div class="mt-4 flex items-center justify-center">
           <img src="/favicon.png" class="h-20" alt="home" />
@@ -106,6 +107,8 @@
     </div>
   </Container>
 </div>
+
+<div class="py-3"></div>
 
 <style>
   .bg-patterns {
