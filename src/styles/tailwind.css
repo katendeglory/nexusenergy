@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Buttons */
+
+.btn {
+  @apply text-gray-50 flex justify-center items-center w-max px-6 py-2 rounded-lg;
+  outline: 0px dashed rgba(255, 255, 255, .25);
+  outline-offset: -5px;
+  white-space: nowrap !important;
+}
+
+.btn-primary {
+  @apply bg-br-green text-white shadow-green-400/20;
+}
+
+.btn-black {
+  @apply bg-black text-white;
+}
+
+.btn-nav {
+  @apply bg-br-green text-white shadow-none w-10 h-10 rounded-full px-0;
+}
+
+.btn-dimmed {
+  @apply bg-gray-100 text-br-green shadow-none;
+}
+
+.btn-dimmed-secondary {
+  @apply bg-gray-50/50 text-gray-400 border border-gray-400/25 shadow-none;
+}
+
+.btn-secondary {
+  @apply bg-br-green text-br-white py-2;
+}
+
+.hook {
+  @apply absolute top-0 left-0 right-0 bottom-0;
+}
+
+/**********************************************************************************************
+  FORMS CUSTOMIZATION 
+***********************************************************************************************/
+
+select, input[type="text"], input[type="file"], input[type="date"], input[type="email"], input[type="password"], input[type="number"], textarea, .selectContainer, .selectContainer input, .selectContainer .listContainer {
+  @apply rounded-none border-none ring-1 ring-br-green/20 cursor-pointer text-gray-800 shadow-sm !important;
+}
+
+select, input[type="file"], input[type="text"], input[type="date"], input[type="datetime-local"], input[type="time"], input[type="email"], input[type="password"], input[type="number"], textarea {
+  @apply inline-block px-4 py-2 w-full cursor-text !important;
+}
+
+select:focus, input[type="datetime-local"]:focus, input[type="text"]:focus, input[type="file"]:focus, input[type="date"]:focus, input[type="time"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, textarea:focus, .selectContainer input:focus {
+  @apply outline-none ring-1 ring-br-green !important;
+}
+
+/* input[type="file"]::placeholder, input[type="datetime-local"]::placeholder, input[type="text"]::placeholder, input[type="date"]::placeholder, input[type="time"]::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder, input[type="number"]::placeholder, .selectContainer input::placeholder { */
+
+*::placeholder {
+  font-family: inherit !important;
+  @apply text-gray-500 text-sm !important;
+}
+
+*:focus {
+  @apply outline-none !important;
+}
+
+/* 
+  SVELTE SELECT
+  -------------
+  
+  Use shadows in the parent wrapping the select component for the effect to work.
+
+  .selectContainer > selectedItem > selection(text) 
+  .selectContainer > input 
+  .selectContainer > clearSelect
+  .selectContainer > div > .listContainer > listItem > item(text)
+
+  * shared classname : svelte-2eeumy or input field
+*/
+
+/* Dropdown list */
+
+.listItem .item {
+  @apply bg-transparent !important;
+}
+
+.listItem .item:hover {
+  @apply font-bold bg-transparent !important;
+}
+
+.listItem .item.active {
+  @apply bg-br-green text-white !important;
+}
+
+/* Reset */
+
+.selectContainer * {
+  @apply bg-transparent !important;
+}
+
+.listContainer {
+  @apply bg-white !important;
+}
+
+.selectContainer input::placeholder {
+  font-family: inherit !important;
+  @apply text-gray-400 text-sm !important;
+}
+
+.selectContainer {
+  position: relative;
+  z-index: 2;
+}

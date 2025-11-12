@@ -1,0 +1,924 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"
+  viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+      }
+
+      .b {
+        clip-path: url(#a);
+      }
+
+      .c {
+        fill: rgba(251, 191, 36);
+        opacity: 0.1;
+      }
+    </style>
+    <clipPath id="a">
+      <rect class="a" width="200" height="200" />
+    </clipPath>
+  </defs>
+  <g class="b">
+    <g transform="translate(-9090 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9080 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9070 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9060 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9050 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9040 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9030 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9020 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9010 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9000 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8990 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8980 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8970 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8960 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8950 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8940 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8930 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8920 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8910 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8900 -5170)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9090 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9080 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9070 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9060 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9050 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9040 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9030 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9020 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9010 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9000 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8990 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8980 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8970 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8960 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8950 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8940 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8930 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8920 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8910 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8900 -5160)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9090 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9080 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9070 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9060 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9050 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9040 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9030 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9020 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9010 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9000 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8990 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8980 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8970 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8960 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8950 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8940 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8930 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8920 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8910 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8900 -5150)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9090 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9080 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9070 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9060 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9050 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9040 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9030 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9020 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9010 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9000 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8990 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8980 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8970 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8960 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8950 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8940 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8930 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8920 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8910 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8900 -5140)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9090 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9080 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9070 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9060 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9050 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9040 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9030 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9020 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9010 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9000 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8990 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8980 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8970 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8960 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8950 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8940 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8930 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8920 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8910 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8900 -5130)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9090 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9080 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9070 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9060 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9050 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9040 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9030 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9020 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9010 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9000 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8990 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8980 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8970 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8960 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8950 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8940 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8930 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8920 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8910 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8900 -5120)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9090 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9080 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9070 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9060 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9050 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9040 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9030 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9020 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9010 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9000 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8990 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8980 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8970 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8960 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8950 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8940 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8930 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8920 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8910 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8900 -5110)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9090 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9080 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9070 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9060 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9050 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9040 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9030 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9020 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9010 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9000 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8990 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8980 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8970 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8960 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8950 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8940 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8930 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8920 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8910 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8900 -5100)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9090 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9080 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9070 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9060 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9050 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9040 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9030 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9020 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9010 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9000 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8990 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8980 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8970 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8960 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8950 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8940 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8930 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8920 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8910 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8900 -5090)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9090 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9080 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9070 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9060 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9050 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9040 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9030 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9020 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9010 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9000 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8990 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8980 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8970 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8960 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8950 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8940 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8930 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8920 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8910 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8900 -5080)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9090 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9080 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9070 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9060 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9050 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9040 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9030 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9020 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9010 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9000 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8990 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8980 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8970 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8960 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8950 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8940 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8930 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8920 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8910 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8900 -5070)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9090 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9080 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9070 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9060 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9050 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9040 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9030 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9020 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9010 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9000 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8990 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8980 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8970 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8960 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8950 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8940 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8930 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8920 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8910 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8900 -5060)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9090 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9080 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9070 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9060 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9050 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9040 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9030 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9020 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9010 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9000 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8990 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8980 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8970 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8960 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8950 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8940 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8930 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8920 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8910 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8900 -5050)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9090 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9080 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9070 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9060 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9050 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9040 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9030 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9020 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9010 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9000 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8990 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8980 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8970 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8960 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8950 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8940 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8930 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8920 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8910 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8900 -5040)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9090 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9080 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9070 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9060 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9050 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9040 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9030 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9020 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9010 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-9000 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8990 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8980 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8970 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8960 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8950 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8940 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8930 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8920 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8910 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+    <g transform="translate(-8900 -5030)">
+      <circle class="c" cx="2.5" cy="2.5" r="2.5" transform="translate(9090 5220)" />
+    </g>
+  </g>
+</svg>
