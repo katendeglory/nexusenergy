@@ -19,10 +19,9 @@
 <Hero />
 <!--  -->
 <About1 />
-<ShowCase />
-<!--  -->
-
+<!-- <ShowCase /> -->
 <About2 />
+<!--  -->
 
 <!--  -->
 <Services />

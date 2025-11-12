@@ -3,89 +3,209 @@
   import { LottiePlayer } from "@lottiefiles/svelte-lottie-player";
 </script>
 
-<div id="team"></div>
+<div class="bg-br-dark-green text-white min-h-screen">
+  <div class="container mx-auto px-4 py-16 max-w-7xl">
+    <!-- Solutions Section -->
+    <section class="mb-20">
+      <h2 class="text-4xl md:text-5xl font-bold mb-12 text-center">
+        Hydropower for every scale
+      </h2>
 
-<div class="bg-[#2b2b2b] min-h-screen">
-  <div
-    class="min-h-screen py-16"
-    style="background-image: url(/images/mesh-2.svg); background-size: cover; background-position: left;"
-  >
-    <Container>
-      <div class="h-font text-white text-4xl md:text-6xl font-bold">
-        Une équipe d'experts,
-        <div class="mt-4 text-br-green">A votre disposition...</div>
+      <div class="grid md:grid-cols-3 gap-8 mb-12">
+        <!-- Pico -->
+        <div
+          class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300"
+        >
+          <div class="flex items-center gap-3 mb-4">
+            <span class="material-symbols-outlined text-3xl text-cyan-400"
+              >bolt</span
+            >
+            <h3 class="text-2xl font-semibold">Pico</h3>
+          </div>
+          <p class="text-cyan-300 mb-4 font-medium">≤5 kW</p>
+          <p class="text-gray-300">Lighting, charging, small village loads</p>
+        </div>
+
+        <!-- Micro -->
+        <div
+          class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300"
+        >
+          <div class="flex items-center gap-3 mb-4">
+            <span class="material-symbols-outlined text-3xl text-cyan-400"
+              >power</span
+            >
+            <h3 class="text-2xl font-semibold">Micro</h3>
+          </div>
+          <p class="text-cyan-300 mb-4 font-medium">5–100 kW</p>
+          <p class="text-gray-300">Clinics, schools, agro-processing</p>
+        </div>
+
+        <!-- Mini -->
+        <div
+          class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300"
+        >
+          <div class="flex items-center gap-3 mb-4">
+            <span class="material-symbols-outlined text-3xl text-cyan-400"
+              >electrical_services</span
+            >
+            <h3 class="text-2xl font-semibold">Mini</h3>
+          </div>
+          <p class="text-cyan-300 mb-4 font-medium">100 kW–5 MW</p>
+          <p class="text-gray-300">Mini-grids for towns and industries</p>
+        </div>
       </div>
 
-      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div class="text-gray-300">
-          Notre équipe d'experts en énergies renouvelables est composée de
-          professionnels passionnés et hautement qualifiés, dédiés à vous
-          accompagner dans votre transition énergétique.
+      <!-- Design Principles -->
+      <div
+        class="bg-white/10 backdrop-blur-sm rounded-xl p-8 border border-white/20 mb-8"
+      >
+        <h3 class="text-2xl font-semibold mb-6 flex items-center gap-2">
+          <span class="material-symbols-outlined text-cyan-400"
+            >design_services</span
+          >
+          Design Principles
+        </h3>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="flex items-start gap-3">
+            <span class="material-symbols-outlined text-cyan-400">
+              check_circle
+            </span>
+            <div>Simple & low-maintenance</div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="material-symbols-outlined text-cyan-400">
+              check_circle
+            </span>
+            <div>Locally serviceable</div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="material-symbols-outlined text-cyan-400">
+              check_circle
+            </span>
+            <div>Environmentally responsible</div>
+          </div>
         </div>
       </div>
 
-      <div class="mt-10 text-gray-400 grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div class="rounded-md shadow-md shadow-black/25 px-4 py-4 bg-black/20">
-          <div
-            class="text-2xl mb-4 text-br-green h-font font-semibold uppercase flex items-center"
-          >
-            <span class="material-symbols-outlined mr-2 text-4xl">
-              webhook
+      <!-- CTA Button -->
+      <div class="text-center">
+        <a href="/#contact" class="btn btn-primary mx-auto">
+          <span class="material-symbols-outlined">mail</span>
+          Contact US
+        </a>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+      <h2 class="text-4xl md:text-5xl font-bold mb-12 text-center">
+        Proven results on the ground
+      </h2>
+
+      <div class="space-y-8">
+        <!-- Lubongo Micro Hydro -->
+        <div
+          class="bg-white/10 backdrop-blur-sm rounded-xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300"
+        >
+          <div class="flex items-start justify-between flex-wrap gap-4 mb-4">
+            <h3 class="text-2xl font-semibold flex items-center gap-2">
+              <span class="material-symbols-outlined text-cyan-400"
+                >water_drop</span
+              >
+              Lubongo Micro Hydro — Tanganyika
+            </h3>
+          </div>
+          <div class="flex flex-wrap items-center gap-4 mb-4 text-cyan-300">
+            <span class="flex items-center gap-1">
+              <span class="material-symbols-outlined text-sm">flash_on</span>
+              45 kW
             </span>
-            Compétence technique
+            <span class="flex items-center gap-1">
+              <span class="material-symbols-outlined text-sm">home</span>
+              200 homes + 1 clinic powered
+            </span>
+            <span class="flex items-center gap-1">
+              <span class="material-symbols-outlined text-sm"
+                >calendar_today</span
+              >
+              Commissioned 2022
+            </span>
           </div>
-          <div class="">
-            Nos ingénieurs maîtrisent les technologies renouvelables comme le
-            solaire et l'éolien. Ils intègrent des solutions innovantes à vos
-            infrastructures, tout en restant à la pointe des avancées.
-          </div>
+          <p class="text-gray-300 flex items-start gap-2">
+            <span class="material-symbols-outlined text-cyan-400 text-sm mt-1"
+              >groups</span
+            >
+            <span>Local team built, community-run, diesel fully replaced.</span>
+          </p>
         </div>
-        <div class="rounded-md shadow-md shadow-black/25 px-4 py-4 bg-black/20">
-          <div
-            class="text-2xl mb-4 text-br-green h-font font-semibold uppercase flex items-center"
-          >
-            <span class="material-symbols-outlined mr-2 text-4xl">
-              emoji_objects
+        <!--  -->
+
+        <!-- Lubongo Micro Hydro -->
+        <div
+          class="bg-white/10 backdrop-blur-sm rounded-xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300"
+        >
+          <div class="flex items-start justify-between flex-wrap gap-4 mb-4">
+            <h3 class="text-2xl font-semibold flex items-center gap-2">
+              <span class="material-symbols-outlined text-cyan-400"
+                >water_drop</span
+              >
+              Lubongo Micro Hydro — Tanganyika
+            </h3>
+          </div>
+          <div class="flex flex-wrap items-center gap-4 mb-4 text-cyan-300">
+            <span class="flex items-center gap-1">
+              <span class="material-symbols-outlined text-sm">flash_on</span>
+              45 kW
             </span>
-            Expérience terrain
+            <span class="flex items-center gap-1">
+              <span class="material-symbols-outlined text-sm">home</span>
+              200 homes + 1 clinic powered
+            </span>
+            <span class="flex items-center gap-1">
+              <span class="material-symbols-outlined text-sm"
+                >calendar_today</span
+              >
+              Commissioned 2022
+            </span>
           </div>
-          <div class="">
-            Forts de nombreuses interventions réussies, nos experts adaptent
-            leurs solutions aux besoins spécifiques de chaque secteur,
-            garantissant fiabilité et efficacité.
-          </div>
+          <p class="text-gray-300 flex items-start gap-2">
+            <span class="material-symbols-outlined text-cyan-400 text-sm mt-1"
+              >groups</span
+            >
+            <span>Local team built, community-run, diesel fully replaced.</span>
+          </p>
         </div>
-        <div class="rounded-md shadow-md shadow-black/25 px-4 py-4 bg-black/20">
-          <div
-            class="text-2xl mb-4 text-br-green h-font font-semibold uppercase flex items-center"
-          >
-            <span class="material-symbols-outlined mr-2 text-4xl">
-              devices
-            </span>
-            Vision stratégique
-          </div>
-          <div class="">
-            Nos spécialistes élaborent des plans énergétiques alignés sur vos
-            objectifs financiers et environnementaux, assurant une croissance
-            durable et optimisée.
-          </div>
-        </div>
-        <div class="rounded-md shadow-md shadow-black/25 px-4 py-4 bg-black/20">
-          <div
-            class="text-2xl mb-4 text-br-green h-font font-semibold uppercase flex items-center"
-          >
-            <span class="material-symbols-outlined mr-2 text-4xl">
-              engineering
-            </span>
-            Engagement écologique
-          </div>
-          <div class="">
-            Animés par la préservation de la planète, nos experts veillent à
-            intégrer des pratiques durables et à réduire l'empreinte carbone de
-            chaque projet.
+        <!--  -->
+
+        <!-- Impact Snapshot -->
+        <div
+          class="bg-gradient-to-r from-cyan-500/20 to-blue-500/20 backdrop-blur-sm rounded-xl p-8 border border-cyan-400/30"
+        >
+          <h3 class="text-2xl font-semibold mb-6 flex items-center gap-2">
+            <span class="material-symbols-outlined text-cyan-400">insights</span
+            >
+            Impact Snapshot
+          </h3>
+          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="text-center">
+              <div class="text-3xl font-bold text-cyan-400 mb-2">—</div>
+              <p class="text-gray-300 text-sm">Projects Completed</p>
+            </div>
+            <div class="text-center">
+              <div class="text-3xl font-bold text-cyan-400 mb-2">—</div>
+              <p class="text-gray-300 text-sm">Total Capacity</p>
+            </div>
+            <div class="text-center">
+              <div class="text-3xl font-bold text-cyan-400 mb-2">—</div>
+              <p class="text-gray-300 text-sm">Communities Served</p>
+            </div>
+            <div class="text-center">
+              <div class="text-3xl font-bold text-cyan-400 mb-2">—</div>
+              <p class="text-gray-300 text-sm">Lives Impacted</p>
+            </div>
           </div>
         </div>
       </div>
-    </Container>
+    </section>
   </div>
 </div>

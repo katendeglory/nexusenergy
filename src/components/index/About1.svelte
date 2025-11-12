@@ -1,6 +1,5 @@
 <script>
   import Container from "./../utils/Container.svelte";
-  import { LottiePlayer } from "@lottiefiles/svelte-lottie-player";
 </script>
 
 <div id="about" />
