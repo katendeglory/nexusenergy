@@ -1,169 +1,295 @@
 <script>
+  import { onMount, onDestroy } from "svelte";
   import Container from "../utils/Container.svelte";
-  import MobileMenu from "./MobileMenu.svelte";
-  import { onMount } from "svelte";
-  import get from "lodash.get";
-  import config from "../../stores/config";
 
-  let PWAInstallBtn;
-  // let is_chrome = !!window.chrome;
-  let is_chrome = false;
-  let clickListener;
+  // Edit your nav items here
+  const navLinks = [
+    { label: "Home", href: "/#home" },
+    { label: "About", href: "/#about" },
+    { label: "Work", href: "/#work" },
+    { label: "Approach", href: "/#approach" },
+    { label: "Impact", href: "/#impact" },
+    { label: "Services", href: "/#services" },
+    { label: "Contact", href: "/#contact" },
+  ];
 
-  $: {
-    if (PWAInstallBtn) {
-      /*
-        Attach the click event listener to the install button when it is shown,
-        as on page load it's still hidden and waiting for the PWA to be ready. 
-        The button will be rendered as soon as we have caught the beforeinstallprompt event.
-        The event prompt will have to be manually triggered with the click of the button. 
-        The beforeinstallprompt event will only trigger after the worker is installed, activated & ready.
-        Otherwise it'll throw an exception and won't trigger.
-      */
-      PWAInstallBtn.addEventListener("click", clickListener);
+  const whatsappHref = "https://wa.me/+243820090304";
+
+  let isOpen = false;
+  let scrolled = false;
+
+  function toggleMenu() {
+    isOpen = !isOpen;
+    lockScroll(isOpen);
+  }
+  function closeMenu() {
+    isOpen = false;
+    lockScroll(false);
+  }
+  function onLinkClick() {
+    closeMenu();
+  }
+
+  function lockScroll(locked) {
+    if (typeof document === "undefined") return;
+    const root = document.documentElement;
+    if (locked) {
+      root.style.overflow = "hidden";
+      root.style.height = "100%";
+    } else {
+      root.style.overflow = "";
+      root.style.height = "";
     }
   }
 
-  const handleLogout = () => {
-    localStorage.removeItem("jwt");
-    config.update((prev) => ({
-      ...prev,
-      currentUser: null,
-    }));
-    window.location = "/login";
-  };
+  function handleScroll() {
+    scrolled = typeof window !== "undefined" && window.scrollY > 8;
+  }
+  function handleKeyDown(e) {
+    if (e.key === "Escape" && isOpen) closeMenu();
+  }
 
   onMount(() => {
-    window.onscroll = (e) => {
-      scrollFunction();
-    };
-
-    const scrollFunction = () => {
-      // let innerHeader = document.getElementById("inner-header");
-      let header = document.getElementById("header");
-
-      if (
-        document.body.scrollTop > 40 ||
-        document.documentElement.scrollTop > 40
-      ) {
-        // innerHeader.classList.replace("h-16", "h-12");
-        // header.classList.add("shadow-sm");
-        // header.classList.add("bg-br-white");
-        // header.classList.replace("text-gray-300", "text-gray-800");
-      } else {
-        // innerHeader.classList.replace("h-12", "h-16");
-        // header.classList.remove("shadow-sm");
-        // header.classList.remove("bg-br-white");
-        // header.classList.replace("text-gray-800", "text-gray-300");
-      }
-    };
-
-    let deferredPrompt;
-
-    window.addEventListener("beforeinstallprompt", (e) => {
-      // Prevent the mini-infobar from appearing on mobile
-      e.preventDefault();
-      // Stash the event so it can be triggered later.
-      deferredPrompt = e;
-      // Update UI notify the user they can install the PWA
-      // showInstallPromotion();
-      // Show button when app can be installed, it can now be installed
-      is_chrome = !!window.chrome;
-    });
-
-    clickListener = (e) => {
-      // Hide the app provided install promotion on click
-      // hideMyInstallPromotion();
-      // Show the install prompt
-      deferredPrompt.prompt();
-      // Wait for the user to respond to the prompt
-      deferredPrompt.userChoice.then((choiceResult) => {
-        if (choiceResult.outcome === "accepted") {
-          console.log("User accepted the install prompt!");
-        } else {
-          console.log("User dismissed the install prompt!");
-        }
-      });
-    };
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("keydown", handleKeyDown);
+  });
+  onDestroy(() => {
+    window.removeEventListener("scroll", handleScroll);
+    window.removeEventListener("keydown", handleKeyDown);
+    lockScroll(false);
   });
 </script>
 
-<div
+<!-- NAV BAR -->
+<header
   id="header"
-  class="bg-br-dark-green navbar text-gray-300 fixed top-0 left-0 w-full z-50 transition-all
-    duration-250 text-sm"
+  class={`fixed top-0 left-0 z-[100] w-full transition-all duration-200 text-sm
+    ${scrolled ? "bg-br-dark-green/95 backdrop-blur supports-[backdrop-filter]:bg-br-dark-green/80 shadow-sm" : "bg-br-dark-green"}`}
 >
   <Container overflowHidden={false}>
     <div
       id="inner-header"
-      class="h-[4.5rem] flex justify-between items-center transition-all duration-250"
+      class="h-[4.5rem] flex items-center justify-between text-gray-200"
     >
-      <a class="nav-link flex items-center" href="#home">
-        <img
-          src="/favicon.png"
-          class="h-[2rem] sm:h-8 object-cover mr-1"
-          alt="home"
+      <!-- Brand (shared layout with mobile to avoid jump) -->
+      <a class="brand flex items-center" href="/#home" aria-label="Go to home">
+        <img src="/favicon.png" class="brand-logo" alt="home" />
+        <div class="brand-text">
+          <span class="tracking-wide">Nexus</span>
+          <span class="tracking-wide">Energy</span>
+        </div>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="hidden lg:flex items-center">
+        {#each navLinks as link, i (link.href)}
+          <a
+            class="mr-4 hover:text-white/90 transition-colors"
+            href={link.href}
+          >
+            {link.label}
+          </a>
+        {/each}
+      </nav>
+
+      <!-- Desktop action -->
+      <div class="hidden lg:flex items-center">
+        <a
+          href={whatsappHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-primary !py-2 !px-4"
+          aria-label="Contact us via WhatsApp"
+        >
+          Contact us
+          <ion-icon name="logo-whatsapp" class="text-2xl ml-2" />
+        </a>
+      </div>
+
+      <!-- Mobile burger -->
+      <button
+        class="lg:hidden relative h-10 w-10 inline-flex items-center justify-center text-white"
+        on:click={toggleMenu}
+        aria-label={isOpen ? "Close menu" : "Open menu"}
+        aria-expanded={isOpen}
+        aria-controls="mobile-menu"
+      >
+        <span class="sr-only">{isOpen ? "Close" : "Open"} menu</span>
+        <!-- Three bars with explicit positions (morph to X) -->
+        <span
+          class="absolute left-1/2 block h-[2px] w-6 -translate-x-1/2 bg-white rounded transition-transform duration-200"
+          style={`top: 12px; transform: ${isOpen ? "translate(-50%, 8px) rotate(45deg)" : "translate(-50%, 0) rotate(0)"};`}
         />
-        <div class="flex flex-col items-start !text-xs space-y-[1px]">
+        <span
+          class="absolute left-1/2 block h-[2px] w-6 -translate-x-1/2 bg-white rounded transition-opacity duration-150"
+          style={`top: 18px; opacity: ${isOpen ? 0 : 1};`}
+        />
+        <span
+          class="absolute left-1/2 block h-[2px] w-6 -translate-x-1/2 bg-white rounded transition-transform duration-200"
+          style={`top: 24px; transform: ${isOpen ? "translate(-50%, -4px) rotate(-45deg)" : "translate(-50%, 0) rotate(0)"};`}
+        />
+      </button>
+    </div>
+  </Container>
+</header>
+
+<!-- MOBILE FULLSCREEN MENU -->
+{#if isOpen}
+  <!-- svelte-ignore a11y-click-events-have-key-events -->
+  <div
+    id="mobile-menu"
+    class="fixed inset-0 z-[999] bg-br-dark-green text-gray-100 overflow-hidden"
+    on:click|self={closeMenu}
+    aria-modal="true"
+    role="dialog"
+  >
+    <!-- Ambient glow accents -->
+    <div
+      class="pointer-events-none absolute -top-24 -left-24 h-72 w-72 rounded-full bg-emerald-500/10 blur-3xl"
+    ></div>
+    <div
+      class="pointer-events-none absolute -bottom-32 -right-20 h-80 w-80 rounded-full bg-teal-400/10 blur-3xl"
+    ></div>
+
+    <!-- Top bar: use SAME brand block to avoid position/size mismatch -->
+    <div class="flex items-center justify-between px-5 pt-5">
+      <a
+        class="brand flex items-center"
+        href="/#home"
+        on:click={onLinkClick}
+        aria-label="Go to home"
+      >
+        <img src="/favicon.png" class="brand-logo" alt="home" />
+        <div class="brand-text">
           <span>Nexus</span>
           <span>Energy</span>
         </div>
       </a>
+      <button
+        class="relative h-10 w-10 inline-flex items-center justify-center"
+        on:click={toggleMenu}
+        aria-label="Close menu"
+      >
+        <span
+          class="absolute block h-[2px] w-6 bg-white rounded transform rotate-45"
+        ></span>
+        <span
+          class="absolute block h-[2px] w-6 bg-white rounded transform -rotate-45"
+        ></span>
+      </button>
+    </div>
 
-      <div class="hidden lg:flex">
-        {#if get($config, "currentUser.role") == "super-admin"}
-          <a class="nav-link mr-4" href="/adm">Admin</a>
-        {:else}
-          <a class="nav-link mr-4" href="/#home">Acceuil</a>
-        {/if}
-        <a class="nav-link mr-4" href="/#about">A Propos</a>
-        <a class="nav-link mr-4" href="/#services">Services</a>
-        <a class="nav-link mr-4" href="/#team">Nos Experts</a>
-        <a class="nav-link mr-4" href="/#contact">Contact</a>
-      </div>
-
-      <div class="lg:flex lg:items-center">
-        <div class="hidden lg:flex items-center nav-link mr-8 lg:mr-0">
-          {#if get($config, "currentUser.username")}
-            <a href="/profile" class="btn btn-primary !py-1">
-              Profile
-              <span class="material-symbols-outlined text-2xl ml-2">
-                person
-              </span>
-            </a>
-            <div class="flex items-center">
-              <button class="ml-2 pt-[4px]" on:click={handleLogout}>
-                <ion-icon name="power-outline" class="text-2xl" />
-              </button>
-            </div>
-          {:else}
+    <!-- Animated content -->
+    <div class="h-full w-full">
+      <div
+        class="mx-auto flex h-full max-w-screen-md flex-col items-center justify-center px-6 py-10 animate-menuIn"
+      >
+        <nav class="w-full text-center">
+          {#each navLinks as link, i (link.href)}
             <a
-              href="https://wa.me/+243820090304"
-              target="_blank"
-              class="btn btn-primary !py-1 h-[2.75rem]"
+              href={link.href}
+              on:click={onLinkClick}
+              class="block py-3 text-xl sm:text-3xl font-medium tracking-wide text-white/95 hover:text-white transition-colors animate-linkIn"
+              style={`animation-delay: ${150 + i * 60}ms`}
             >
-              Nous Contacter
-              <ion-icon name="logo-whatsapp" class="text-xl ml-2" />
+              {link.label}
             </a>
-          {/if}
-        </div>
+          {/each}
+        </nav>
 
-        <div class="flex items-center">
-          {#if is_chrome}
-            <div class="mr-2 lg:ml-2 lg:mr-0">
-              <button
-                class="btn btn-primary shadow-sm pwa-btn"
-                bind:this={PWAInstallBtn}
-              >
-                Install
-                <ion-icon name="logo-pwa" class="text-2xl ml-2" />
-              </button>
-            </div>
-          {/if}
+        <a
+          href={whatsappHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mt-10 inline-flex items-center justify-center btn btn-primary !px-6 !py-3 animate-ctaIn"
+          aria-label="Contact us via WhatsApp"
+          style="animation-delay: 500ms"
+        >
+          Contact us
+          <ion-icon name="logo-whatsapp" class="text-2xl ml-2" />
+        </a>
 
-          <MobileMenu />
+        <div
+          class="mt-8 text-center text-xs text-white/70 animate-fadeInSlow"
+          style="animation-delay: 650ms"
+        >
+          © {new Date().getFullYear()} Nexus Energy Group
         </div>
       </div>
     </div>
-  </Container>
-</div>
+  </div>
+{/if}
+
+<style>
+  /* Shared brand block to keep header/mobile perfectly matched */
+  .brand-logo {
+    height: 2rem;
+  }
+  @media (min-width: 640px) {
+    .brand-logo {
+      height: 2rem; /* match header for consistency */
+    }
+  }
+  .brand-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.05;
+    font-size: 0.75rem; /* text-xs */
+    margin-left: 0.5rem; /* mr-2 equivalent when logo is left */
+  }
+
+  /* Animations for mobile menu */
+  @keyframes menuIn {
+    0% {
+      opacity: 0;
+      transform: translateY(12px) scale(0.985);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+  @keyframes linkIn {
+    0% {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes ctaIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px) scale(0.99);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+  @keyframes fadeInSlow {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .animate-menuIn {
+    animation: menuIn 300ms ease-out both;
+  }
+  .animate-linkIn {
+    animation: linkIn 320ms ease-out both;
+  }
+  .animate-ctaIn {
+    animation: ctaIn 340ms ease-out both;
+  }
+  .animate-fadeInSlow {
+    animation: fadeInSlow 450ms ease-out both;
+  }
+</style>
