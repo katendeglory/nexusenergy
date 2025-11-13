@@ -15,7 +15,7 @@
   ];
 </script>
 
-<footer class="bg-[#1ABC9C] text-white">
+<footer class="bg-br-green text-white">
   <Container>
     <div class="py-12 md:py-16">
       <div class="grid gap-8 md:grid-cols-3 items-center">
