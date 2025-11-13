@@ -51,7 +51,7 @@
     <video
       id="hero"
       bind:this={videoEl}
-      poster="/images/hero/poster.jpg"
+      poster="/images/landscape.jpg"
       muted
       autoplay
       loop
