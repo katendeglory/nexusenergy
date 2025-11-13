@@ -1,5 +1,5 @@
 <script>
-  import Container from "./../utils/Container.svelte";
+  import Container from "../utils/Container.svelte";
 
   // Solutions data
   const solutions = [
@@ -7,27 +7,27 @@
       icon: "bolt",
       title: "Pico",
       power: "≤5 kW",
-      description: "Lighting, charging, small village loads"
+      description: "Lighting, charging, small village loads",
     },
     {
       icon: "power",
       title: "Micro",
       power: "5–100 kW",
-      description: "Clinics, schools, agro-processing"
+      description: "Clinics, schools, agro-processing",
     },
     {
       icon: "electrical_services",
       title: "Mini",
       power: "100 kW–5 MW",
-      description: "Mini-grids for towns and industries"
-    }
+      description: "Mini-grids for towns and industries",
+    },
   ];
 
   // Design principles data
   const designPrinciples = [
     "Simple & low-maintenance",
     "Locally serviceable",
-    "Environmentally responsible"
+    "Environmentally responsible",
   ];
 
   // Projects data
@@ -38,7 +38,7 @@
       capacity: "45 kW",
       homes: "200 homes + 1 clinic powered",
       year: "Commissioned 2022",
-      description: "Local team built, community-run, diesel fully replaced."
+      description: "Local team built, community-run, diesel fully replaced.",
     },
     {
       icon: "water_drop",
@@ -46,16 +46,16 @@
       capacity: "45 kW",
       homes: "200 homes + 1 clinic powered",
       year: "Commissioned 2022",
-      description: "Local team built, community-run, diesel fully replaced."
-    }
+      description: "Local team built, community-run, diesel fully replaced.",
+    },
   ];
 
   // Impact stats data
   const impactStats = [
-    { value: "—", label: "Projects Completed" },
-    { value: "—", label: "Total Capacity" },
-    { value: "—", label: "Communities Served" },
-    { value: "—", label: "Lives Impacted" }
+    { value: "15", label: "Projects Completed" },
+    { value: "95%", label: "Satisfaction" },
+    { value: "9", label: "Communities Served" },
+    { value: "187", label: "Lives Impacted" },
   ];
 </script>
 
@@ -63,7 +63,7 @@
   <div class="container mx-auto px-4 py-16 max-w-7xl">
     <!-- Solutions Section -->
     <section class="mb-20">
-      <h2 
+      <h2
         class="text-4xl md:text-5xl font-bold mb-12 text-center"
         data-aos="fade-up"
         data-aos-duration="800"
@@ -106,10 +106,10 @@
         </h3>
         <div class="grid md:grid-cols-3 gap-6">
           {#each designPrinciples as principle, index}
-            <div 
+            <div
               class="flex items-start gap-3"
               data-aos="fade-right"
-              data-aos-delay={400 + (index * 100)}
+              data-aos-delay={400 + index * 100}
               data-aos-duration="500"
             >
               <span class="material-symbols-outlined text-cyan-400">
@@ -122,7 +122,7 @@
       </div>
 
       <!-- CTA Button -->
-      <div 
+      <div
         class="text-center"
         data-aos="zoom-in"
         data-aos-duration="600"
@@ -137,7 +137,7 @@
 
     <!-- Projects Section -->
     <section>
-      <h2 
+      <h2
         class="text-4xl md:text-5xl font-bold mb-12 text-center"
         data-aos="fade-up"
         data-aos-duration="800"
@@ -178,7 +178,9 @@
               </span>
             </div>
             <p class="text-gray-300 flex items-start gap-2">
-              <span class="material-symbols-outlined text-cyan-400 text-sm mt-1">
+              <span
+                class="material-symbols-outlined text-cyan-400 text-sm mt-1"
+              >
                 groups
               </span>
               <span>{project.description}</span>
@@ -194,18 +196,21 @@
           data-aos-delay="400"
         >
           <h3 class="text-2xl font-semibold mb-6 flex items-center gap-2">
-            <span class="material-symbols-outlined text-cyan-400">insights</span>
+            <span class="material-symbols-outlined text-cyan-400">insights</span
+            >
             Impact Snapshot
           </h3>
           <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {#each impactStats as stat, index}
-              <div 
+              <div
                 class="text-center"
                 data-aos="fade-up"
-                data-aos-delay={500 + (index * 100)}
+                data-aos-delay={500 + index * 100}
                 data-aos-duration="600"
               >
-                <div class="text-3xl font-bold text-cyan-400 mb-2">{stat.value}</div>
+                <div class="text-3xl font-bold text-cyan-400 mb-2">
+                  {stat.value}
+                </div>
                 <p class="text-gray-300 text-sm">{stat.label}</p>
               </div>
             {/each}

@@ -1,10 +1,10 @@
 <script>
-  import Container from "./../utils/Container.svelte";
+  import Container from "../utils/Container.svelte";
 
   const achievements = [
     { label: "Projects Delivered", value: "12+" },
-    { label: "Households Powered", value: "500+" },
-    { label: "System Uptime", value: "98%" },
+    { label: "Households Powered", value: "104+" },
+    { label: "System Uptime", value: "93%" },
   ];
 
   const pillars = [
@@ -140,29 +140,14 @@
             <p class="mt-3 text-sm text-gray-600 leading-relaxed">
               {pillar.copy}
             </p>
-            <span
-              class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-emerald-700"
-            >
-              Contact us
-              <svg
-                class="w-4 h-4 transition-transform group-hover:translate-x-1"
-                viewBox="0 0 24 24"
-                fill="none"
-              >
-                <path
-                  d="M5 12H19M19 12L12 5M19 12L12 19"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
           </article>
         {/each}
       </div>
+      <div class="py-4"></div>
     </Container>
   </section>
 
+  <div id="work" class="py-2"></div>
   <!-- Story -->
   <section class="relative overflow-hidden bg-slate-900 py-20 text-white">
     <div class="absolute inset-0">

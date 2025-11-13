@@ -51,5 +51,6 @@
 <style>
   .layout {
     width: 100%;
+    overflow-x: hidden !important;
   }
 </style>

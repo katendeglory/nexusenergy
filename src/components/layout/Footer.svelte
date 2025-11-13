@@ -2,12 +2,10 @@
   import Container from "../utils/Container.svelte";
 
   // Navigation links array
-  export const navLinks = [
+  const navLinks = [
     { label: "Home", href: "/#home" },
     { label: "About", href: "/#about" },
     { label: "Work", href: "/#work" },
-    { label: "Approach", href: "/#approach" },
-    { label: "Impact", href: "/#impact" },
     { label: "Services", href: "/#services" },
     { label: "Careers", href: "/#careers" },
     { label: "FAQ", href: "/#faq" },
@@ -29,25 +27,32 @@
               class="h-14 w-14 object-contain"
             />
             <div>
-              <h3 class="text-2xl font-bold text-gray-900">Nexus Energy Group</h3>
-              <p class="text-sm text-gray-600 mt-1">Hydropower for communities</p>
+              <h3 class="text-2xl font-bold text-gray-900">
+                Nexus Energy Group
+              </h3>
+              <p class="text-sm text-gray-600 mt-1">
+                Hydropower for communities
+              </p>
             </div>
           </div>
           <p class="text-sm text-gray-600 leading-relaxed max-w-md">
-            Delivering reliable, community-owned hydropower solutions across the DRC. 
-            From feasibility to operations, we're with you every step of the way.
+            Delivering reliable, community-owned hydropower solutions across the
+            DRC. From feasibility to operations, we're with you every step of
+            the way.
           </p>
         </div>
 
         <!-- Quick Links -->
         <div data-aos="fade-up" data-aos-delay="100">
-          <h4 class="text-sm font-semibold uppercase tracking-wider mb-6 text-gray-900">
+          <h4
+            class="text-sm font-semibold uppercase tracking-wider mb-6 text-gray-900"
+          >
             Navigation
           </h4>
           <nav class="space-y-3">
             {#each navLinks as link}
-              <a 
-                href={link.href} 
+              <a
+                href={link.href}
                 class="block text-sm text-gray-600 hover:text-emerald-600 transition-colors duration-200"
               >
                 {link.label}
@@ -58,26 +63,28 @@
 
         <!-- Contact Info -->
         <div data-aos="fade-up" data-aos-delay="200">
-          <h4 class="text-sm font-semibold uppercase tracking-wider mb-6 text-gray-900">
+          <h4
+            class="text-sm font-semibold uppercase tracking-wider mb-6 text-gray-900"
+          >
             Get In Touch
           </h4>
           <div class="space-y-4 text-sm">
             <div>
               <p class="text-gray-500 mb-1">Email</p>
-              <a 
-                href="mailto:info@[domain].com" 
+              <a
+                href="mailto:info@nexusenergy.com"
                 class="text-gray-700 hover:text-emerald-600 transition-colors"
               >
-                info@[domain].com
+                info@nexusenergy.com
               </a>
             </div>
             <div>
               <p class="text-gray-500 mb-1">Phone</p>
-              <a 
-                href="tel:+[country code] [number]" 
+              <a
+                href="tel:+[country code] [number]"
                 class="text-gray-700 hover:text-emerald-600 transition-colors"
               >
-                +[country code] [number]
+                +141 928 083 99
               </a>
             </div>
           </div>
@@ -86,7 +93,9 @@
 
       <!-- Bottom Bar -->
       <div class="pt-8 border-t border-gray-200">
-        <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div
+          class="flex flex-col md:flex-row justify-between items-center gap-4"
+        >
           <p class="text-xs text-gray-500">
             © {new Date().getFullYear()} Nexus Energy Group. All rights reserved.
           </p>

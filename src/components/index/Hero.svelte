@@ -3,18 +3,18 @@
   import Container from "../utils/Container.svelte";
 
   const playVideo = (id) => {
-      let vid = document.getElementById(id);
-      vid.src = "/videos/01.mp4" /* Put a source here... */;
-      vid.preload = "auto";
-      vid.muted = true;
-      vid.autoplay = true;
-      vid.loop = true;
-      vid.playsinline = true;
-      vid["webkit-playsinline"] = true;
-      vid.play();
-      console.log(vid);
-    };
-  
+    let vid = document.getElementById(id);
+    vid.src = "/videos/01.mp4";
+    vid.preload = "auto";
+    vid.muted = true;
+    vid.autoplay = true;
+    vid.loop = true;
+    vid.playsinline = true;
+    vid["webkit-playsinline"] = true;
+    vid.play();
+    console.log(vid);
+  };
+
   onMount(() => {
     playVideo("hero");
   });
@@ -22,14 +22,21 @@
 
 <section class="showcase" id="home">
   <div class="video-container">
-    <video id="hero" muted autoplay loop playsinline poster="/images/landscape.jpg">
+    <video
+      id="hero"
+      muted
+      autoplay
+      loop
+      playsinline
+      poster="/images/landscape.jpg"
+    >
       <source type="video/mp4" />
     </video>
   </div>
 
   <div class="content text-gray-100">
     <Container>
-      <div class="relative flex flex-col md:flex-row">
+      <div class="relative flex flex-col md:flex-row md:pt-10">
         <!-- Left: Copy -->
         <div class="relative z-10 h-screen w-full lg:w-3/5 flex items-center">
           <div class="relative z-10 h-full w-full flex flex-col justify-center">
@@ -65,7 +72,7 @@
               data-aos-anchor-placement="top-bottom"
               data-aos-duration="700"
               data-aos-delay="350"
-              class="mt-5 max-w-[58ch] text-base md:text-xl text-gray-100/90 leading-relaxed"
+              class="mt-5 max-w-[58ch] text-base text-gray-100/90"
             >
               Reliable rural electrification with small-scale hydropower.
               Practical, locally led solutions powering homes, farms, and small
@@ -162,16 +169,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     object-fit: cover;
-  }
-
-  /* Graceful fallback gradient if video fails */
-  .video-container.video-fallback {
-    background: radial-gradient(
-      120% 80% at 20% 60%,
-      #065f46 0%,
-      #064e3b 40%,
-      #022c22 100%
-    );
   }
 
   /* Overlays for contrast and cinematic depth */

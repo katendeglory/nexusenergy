@@ -4,18 +4,15 @@
 
   // Edit your nav items here
   const navLinks = [
-    { label: "Home", href: "/#home" },
     { label: "About", href: "/#about" },
     { label: "Work", href: "/#work" },
-    { label: "Approach", href: "/#approach" },
-    { label: "Impact", href: "/#impact" },
     { label: "Services", href: "/#services" },
     { label: "Careers", href: "/#careers" },
     { label: "FAQ", href: "/#faq" },
     { label: "Contact", href: "/#contact" },
   ];
 
-  const whatsappHref = "https://wa.me/+243820090304";
+  const whatsappHref = "https://wa.me/+14192808399";
 
   let isOpen = false;
   let scrolled = false;
