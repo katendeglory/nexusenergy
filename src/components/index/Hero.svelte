@@ -1,13 +1,10 @@
 <script>
-  import { LottiePlayer } from "@lottiefiles/svelte-lottie-player";
   import { onMount } from "svelte";
   import Container from "../utils/Container.svelte";
 
-  // let is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-
   const playVideo = (id) => {
     let vid = document.getElementById(id);
-    vid.src = "/videos/01.mp4" /* Put a source here... */;
+    vid.src = "/videos/01.mp4"
     vid.preload = "auto";
     vid.muted = true;
     vid.autoplay = true;
