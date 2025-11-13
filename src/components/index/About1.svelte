@@ -45,7 +45,7 @@
 <div id="about" class="bg-white text-gray-900">
   <!-- Hero / Ribbon -->
   <section class="relative overflow-hidden bg-white text-gray-900 py-20">
-    <Container>
+    <Container overflowHidden={false}>
       <div
         class="relative z-10 grid gap-12 lg:grid-cols-[1.1fr_0.9fr] items-center"
       >
@@ -247,7 +247,7 @@
   <section class="py-20">
     <Container>
       <div
-        class="relative overflow-hidden rounded-3xl px-8 py-14"
+        class="relative overflow-hidden rounded-3xl px-8 py-8"
         data-aos="zoom-in"
       >
         <div
@@ -258,14 +258,14 @@
             <h4 class="mt-4 text-2xl md:text-3xl font-semibold leading-tight">
               Bring dependable hydropower to your community or industrial site.
             </h4>
-            <p class="mt-4 text-sm text-white/80 max-w-xl">
+            <p class="mt-4 text-sm max-w-xl">
               Partner with Nexus Energy Group for feasibility studies, turnkey
               systems, and transparent long-term support.
             </p>
           </div>
           <div class="flex justify-start md:justify-end">
             <a
-              href="#contact"
+              href="/#contact"
               class="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-emerald-700 shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl"
             >
               Talk to our team
