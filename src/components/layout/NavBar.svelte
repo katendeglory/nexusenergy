@@ -10,6 +10,8 @@
     { label: "Approach", href: "/#approach" },
     { label: "Impact", href: "/#impact" },
     { label: "Services", href: "/#services" },
+    { label: "Careers", href: "/#careers" },
+    { label: "FAQ", href: "/#faq" },
     { label: "Contact", href: "/#contact" },
   ];
 
