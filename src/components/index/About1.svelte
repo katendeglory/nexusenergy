@@ -239,12 +239,13 @@
             </p>
           </div>
         </aside>
+        <div class="py-2"></div>
       </div>
     </Container>
   </section>
 
   <!-- CTA -->
-  <section class="py-20">
+  <section class="py-14">
     <Container>
       <div
         class="relative overflow-hidden rounded-3xl px-8 py-8"
