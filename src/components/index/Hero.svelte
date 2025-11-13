@@ -2,62 +2,27 @@
   import { onMount, onDestroy } from "svelte";
   import Container from "../utils/Container.svelte";
 
-  let videoEl;
-
-  const playVideo = (el, src = "/videos/01.mp4") => {
-    if (!el) return;
-    el.src = src;
-    el.preload = "auto";
-    el.muted = true;
-    el.autoplay = true;
-    el.loop = true;
-    el.playsInline = true;
-    el.setAttribute("playsinline", "");
-    el.play().catch(() => {
-      el.muted = true;
-      el.play().catch(() => {});
-    });
-    el.addEventListener("error", () => {
-      el.parentElement?.classList.add("video-fallback");
-    });
-  };
-
-  let intersectionObserver;
-
+  const playVideo = (id) => {
+      let vid = document.getElementById(id);
+      vid.src = "/videos/01.mp4" /* Put a source here... */;
+      vid.preload = "auto";
+      vid.muted = true;
+      vid.autoplay = true;
+      vid.loop = true;
+      vid.playsinline = true;
+      vid["webkit-playsinline"] = true;
+      vid.play();
+      console.log(vid);
+    };
+  
   onMount(() => {
-    const el = videoEl || document.getElementById("hero");
-    playVideo(el);
-    if (el) {
-      intersectionObserver = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) el.play().catch(() => {});
-            else el.pause();
-          });
-        },
-        { threshold: 0.2 },
-      );
-      intersectionObserver.observe(el);
-    }
-  });
-
-  onDestroy(() => {
-    intersectionObserver?.disconnect();
+    playVideo("hero");
   });
 </script>
 
 <section class="showcase" id="home">
   <div class="video-container">
-    <video
-      id="hero"
-      bind:this={videoEl}
-      poster="/images/landscape.jpg"
-      muted
-      autoplay
-      loop
-      playsinline
-      aria-label="Small hydropower video background"
-    >
+    <video id="hero" muted autoplay loop playsinline poster="/images/landscape.jpg">
       <source type="video/mp4" />
     </video>
   </div>
