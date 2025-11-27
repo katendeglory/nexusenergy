@@ -5,9 +5,9 @@
   // Edit your nav items here
   const navLinks = [
     { label: "About", href: "/#about" },
-    { label: "Work", href: "/#work" },
+    { label: "Vision", href: "/#vision" },
     { label: "Services", href: "/#services" },
-    { label: "Careers", href: "/#careers" },
+    { label: "Team", href: "/#team" },
     { label: "FAQ", href: "/#faq" },
     { label: "Contact", href: "/#contact" },
   ];
