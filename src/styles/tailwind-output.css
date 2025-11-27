@@ -1449,6 +1449,10 @@ select {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -2318,6 +2322,11 @@ select:focus, input[type="datetime-local"]:focus, input[type="text"]:focus, inpu
 
   .xl\:text-6xl {
     font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
     line-height: 1;
   }
 }

@@ -74,7 +74,7 @@
               data-aos-delay="350"
               class="mt-5 max-w-[58ch] text-base text-gray-100/90"
             >
-              Reliable rural electrification with small-scale hydropower.
+              Empowering Congo through Clean, Community-Centered Hydropower.
               Practical, locally led solutions powering homes, farms, and small
               industry—built to last.
             </p>
