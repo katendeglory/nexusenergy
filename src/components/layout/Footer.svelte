@@ -22,7 +22,7 @@
     <div class="py-16 md:py-20">
       <!-- Main Footer Content -->
       <div class="grid gap-12 md:grid-cols-4 mb-12">
-        <!-- Company Info -->
+        <!-- Company Information -->
         <div class="md:col-span-2" data-aos="fade-up">
           <div class="flex items-center gap-4 mb-6">
             <img
