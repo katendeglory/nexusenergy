@@ -1,15 +1,23 @@
 <script>
   import { onMount, onDestroy } from "svelte";
   import Container from "../utils/Container.svelte";
+  import lang from "../../stores/lang";
+
+  let { t } = $lang;
+
+  function switchLanguage(newLang) {
+    localStorage.setItem("lang", newLang);
+    lang.update((prev) => ({ ...prev, currentLang: newLang }));
+  }
 
   // Edit your nav items here
   const navLinks = [
-    { label: "About", href: "/#about" },
-    { label: "Vision", href: "/#vision" },
-    { label: "Services", href: "/#services" },
-    { label: "Team", href: "/#team" },
-    { label: "FAQ", href: "/#faq" },
-    { label: "Contact", href: "/#contact" },
+    { label: { en: "About", fr: "À propos" }, href: "/#about" },
+    { label: { en: "Vision", fr: "Vision" }, href: "/#vision" },
+    { label: { en: "Services", fr: "Services" }, href: "/#services" },
+    { label: { en: "Team", fr: "Équipe" }, href: "/#team" },
+    { label: { en: "FAQ", fr: "FAQ" }, href: "/#faq" },
+    { label: { en: "Contact", fr: "Contact" }, href: "/#contact" },
   ];
 
   const whatsappHref = "https://wa.me/+14192808399";
@@ -87,13 +95,35 @@
             class="mr-4 hover:text-white/90 transition-colors"
             href={link.href}
           >
-            {link.label}
+            {t(link.label.en, link.label.fr)}
           </a>
         {/each}
       </nav>
 
       <!-- Desktop action -->
-      <div class="hidden lg:flex items-center">
+      <div class="hidden lg:flex items-center gap-3">
+        <!-- Language Switcher -->
+        <div class="lang-switcher">
+          <button
+            on:click={() => switchLanguage("en")}
+            class={`lang-btn ${$lang.currentLang === "en" ? "active" : ""}`}
+            aria-label="Switch to English"
+          >
+            EN
+          </button>
+          <button
+            on:click={() => switchLanguage("fr")}
+            class={`lang-btn ${$lang.currentLang === "fr" ? "active" : ""}`}
+            aria-label="Passer au français"
+          >
+            FR
+          </button>
+          <div
+            class="lang-slider"
+            class:slide-right={$lang.currentLang === "fr"}
+          ></div>
+        </div>
+
         <a
           href={whatsappHref}
           target="_blank"
@@ -101,7 +131,7 @@
           class="btn btn-primary !py-2 !px-4"
           aria-label="Contact us via WhatsApp"
         >
-          Contact us
+          {t("Contact us", "Contactez-nous")}
           <ion-icon name="logo-whatsapp" class="text-2xl ml-2" />
         </a>
       </div>
@@ -192,20 +222,40 @@
               class="block py-3 text-xl sm:text-3xl font-medium tracking-wide text-white/95 hover:text-white transition-colors animate-linkIn"
               style={`animation-delay: ${150 + i * 60}ms`}
             >
-              {link.label}
+              {t(link.label.en, link.label.fr)}
             </a>
           {/each}
         </nav>
+
+        <!-- Language Switcher Mobile -->
+        <div class="lang-switcher-mobile">
+          <button
+            on:click={() => switchLanguage("en")}
+            class={`lang-btn-mobile ${$lang.currentLang === "en" ? "active" : ""}`}
+          >
+            EN
+          </button>
+          <button
+            on:click={() => switchLanguage("fr")}
+            class={`lang-btn-mobile ${$lang.currentLang === "fr" ? "active" : ""}`}
+          >
+            FR
+          </button>
+          <div
+            class="lang-slider-mobile"
+            class:slide-right={$lang.currentLang === "fr"}
+          ></div>
+        </div>
 
         <a
           href={whatsappHref}
           target="_blank"
           rel="noopener noreferrer"
-          class="mt-10 inline-flex items-center justify-center btn btn-primary !px-6 !py-3 animate-ctaIn"
+          class="mt-6 inline-flex items-center justify-center btn btn-primary !px-6 !py-3 animate-ctaIn"
           aria-label="Contact us via WhatsApp"
           style="animation-delay: 500ms"
         >
-          Contact us
+          {t("Contact us", "Contactez-nous")}
           <ion-icon name="logo-whatsapp" class="text-2xl ml-2" />
         </a>
 
@@ -290,5 +340,106 @@
   }
   .animate-fadeInSlow {
     animation: fadeInSlow 450ms ease-out both;
+  }
+
+  /* Language Switcher Styles */
+  .lang-switcher {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 9999px;
+    padding: 4px;
+    overflow: hidden;
+  }
+
+  .lang-btn {
+    position: relative;
+    z-index: 2;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .lang-btn:hover {
+    color: white;
+  }
+
+  .lang-btn.active {
+    color: #064e3b;
+  }
+
+  .lang-slider {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: calc(50% - 4px);
+    height: calc(100% - 8px);
+    background: white;
+    border-radius: 9999px;
+    transition: transform 0.35s cubic-bezier(0.65, 0, 0.35, 1);
+    z-index: 1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .lang-slider.slide-right {
+    transform: translateX(calc(100% + 4px));
+  }
+
+  /* Mobile Language Switcher */
+  .lang-switcher-mobile {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 9999px;
+    padding: 6px;
+    margin-top: 2rem;
+    animation: ctaIn 340ms ease-out both;
+    animation-delay: 450ms;
+    overflow: hidden;
+  }
+
+  .lang-btn-mobile {
+    position: relative;
+    z-index: 2;
+    padding: 8px 16px;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .lang-btn-mobile.active {
+    color: #064e3b;
+  }
+
+  .lang-slider-mobile {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: calc(50% - 10px);
+    height: calc(100% - 12px);
+    background: white;
+    border-radius: 9999px;
+    transition: transform 0.35s cubic-bezier(0.65, 0, 0.35, 1);
+    z-index: 1;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .lang-slider-mobile.slide-right {
+    transform: translateX(calc(100% + 8px));
   }
 </style>

@@ -1,6 +1,8 @@
 <script>
   import Hero from "../components/index/Hero.svelte";
-  import HomePageContent from "../components/index/HomePageContent.svelte";
+  import Section1 from "../components/index/Section1.svelte";
+  import Section2 from "../components/index/Section2.svelte";
+  import Section3 from "../components/index/Section3.svelte";
 </script>
 
 <svelte:head>
@@ -11,4 +13,6 @@
 </svelte:head>
 
 <Hero />
-<HomePageContent />
+<Section1 />
+<Section2 />
+<Section3 />

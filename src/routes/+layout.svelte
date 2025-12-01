@@ -8,14 +8,7 @@
   import NavBar from "../components/layout/NavBar.svelte";
   import { onMount } from "svelte";
   import { afterNavigate, beforeNavigate } from "$app/navigation";
-
-  let loading = false;
-
-  onMount(async () => {
-    setTimeout(async () => {
-      loading = false;
-    }, 2000);
-  });
+  import lang from "../stores/lang";
 
   let root;
 
@@ -31,20 +24,23 @@
   afterNavigate(() => {
     root?.classList.add("scroll-smooth");
   });
+
+  let CURRENT_LANG = Math.random();
+
+  $: {
+    setTimeout(() => {
+      CURRENT_LANG = `${$lang.currentLang}`;
+    }, 350);
+  }
 </script>
 
-{#if loading}
-  <div class="h-screen flex items-center justify-center">
-    <Loading />
-  </div>
-{:else}
-  <!-- else content here -->
+{#key CURRENT_LANG}
   <div class={`bg-br-white text-gray-950 font-light w-full layout`} id="home">
     <NavBar />
     <slot />
     <Footer />
   </div>
-{/if}
+{/key}
 
 <div class="scroll-smooth shadow-2xl hidden" />
 

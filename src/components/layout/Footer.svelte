@@ -1,15 +1,19 @@
 <script>
   import Container from "../utils/Container.svelte";
 
+  import lang from "../../stores/lang";
+
+  let { t } = $lang;
+
   // Navigation links array
   const navLinks = [
-    { label: "Home", href: "/#home" },
-    { label: "About", href: "/#about" },
-    { label: "Vision", href: "/#vision" },
-    { label: "Services", href: "/#services" },
-    { label: "Team", href: "/#team" },
-    { label: "FAQ", href: "/#faq" },
-    { label: "Contact", href: "/#contact" },
+    { label: { en: "Home", fr: "Accueil" }, href: "/#home" },
+    { label: { en: "About", fr: "À propos" }, href: "/#about" },
+    { label: { en: "Vision", fr: "Vision" }, href: "/#vision" },
+    { label: { en: "Services", fr: "Services" }, href: "/#services" },
+    { label: { en: "Team", fr: "Équipe" }, href: "/#team" },
+    { label: { en: "FAQ", fr: "FAQ" }, href: "/#faq" },
+    { label: { en: "Contact", fr: "Contact" }, href: "/#contact" },
   ];
 </script>
 
@@ -31,14 +35,18 @@
                 Nexus Energy Group
               </h3>
               <p class="text-sm text-gray-600 mt-1">
-                Hydropower for communities
+                {t(
+                  "Hydropower for communities",
+                  "Hydroélectricité pour les communautés",
+                )}
               </p>
             </div>
           </div>
           <p class="text-sm text-gray-600 leading-relaxed max-w-md">
-            Delivering reliable, community-owned hydropower solutions across the
-            DRC. From feasibility to operations, we're with you every step of
-            the way.
+            {t(
+              "Delivering reliable, community-owned hydropower solutions across the DRC. From feasibility to operations, we're with you every step of the way.",
+              "Fournir des solutions hydroélectriques fiables et communautaires dans toute la RDC. De la faisabilité aux opérations, nous sommes avec vous à chaque étape.",
+            )}
           </p>
         </div>
 
@@ -47,7 +55,7 @@
           <h4
             class="text-sm font-semibold uppercase tracking-wider mb-6 text-gray-900"
           >
-            Navigation
+            {t("Navigation", "Navigation")}
           </h4>
           <nav class="space-y-3">
             {#each navLinks as link}
@@ -55,7 +63,7 @@
                 href={link.href}
                 class="block text-sm text-gray-600 hover:text-emerald-600 transition-colors duration-200"
               >
-                {link.label}
+                {t(link.label.en, link.label.fr)}
               </a>
             {/each}
           </nav>
@@ -66,11 +74,11 @@
           <h4
             class="text-sm font-semibold uppercase tracking-wider mb-6 text-gray-900"
           >
-            Get In Touch
+            {t("Get In Touch", "Contactez-nous")}
           </h4>
           <div class="space-y-4 text-sm">
             <div>
-              <p class="text-gray-500 mb-1">Email</p>
+              <p class="text-gray-500 mb-1">{t("Email", "E-mail")}</p>
               <a
                 href="mailto:info@nexusenergy.com"
                 class="text-gray-700 hover:text-emerald-600 transition-colors"
@@ -79,12 +87,12 @@
               </a>
             </div>
             <div>
-              <p class="text-gray-500 mb-1">Phone</p>
+              <p class="text-gray-500 mb-1">{t("Phone", "Téléphone")}</p>
               <a
-                href="tel:+[country code] [number]"
+                href="tel:+14192808399"
                 class="text-gray-700 hover:text-emerald-600 transition-colors"
               >
-                +141 928 083 99
+                +1 419 280 8399
               </a>
             </div>
           </div>
@@ -97,10 +105,13 @@
           class="flex flex-col md:flex-row justify-between items-center gap-4"
         >
           <p class="text-xs text-gray-500">
-            © {new Date().getFullYear()} Nexus Energy Group. All rights reserved.
+            © {new Date().getFullYear()} Nexus Energy Group. {t(
+              "All rights reserved.",
+              "Tous droits réservés.",
+            )}
           </p>
           <p class="text-xs text-gray-500">
-            Designed by
+            {t("Designed by", "Conçu par")}
             <a
               href="https://glorykatende.com"
               target="_blank"

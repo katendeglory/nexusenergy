@@ -1,6 +1,9 @@
 <script>
   import { onMount, onDestroy } from "svelte";
   import Container from "../utils/Container.svelte";
+  import lang from "../../stores/lang";
+
+  let { t } = $lang;
 
   const playVideo = (id) => {
     let vid = document.getElementById(id);
@@ -74,9 +77,10 @@
               data-aos-delay="350"
               class="mt-5 max-w-[58ch] text-base text-gray-100/90"
             >
-              Empowering Congo through Clean, Community-Centered Hydropower.
-              Practical, locally led solutions powering homes, farms, and small
-              industry—built to last.
+              {t(
+                "Empowering Congo through Clean, Community-Centered Hydropower. Practical, locally led solutions powering homes, farms, and small industry—built to last.",
+                "Autonomiser le Congo grâce à l'hydroélectricité propre et centrée sur la communauté. Des solutions pratiques et dirigées localement alimentant les maisons, les fermes et les petites industries—conçues pour durer.",
+              )}
             </p>
 
             <div
@@ -90,7 +94,7 @@
                 href="/#about"
                 class="btn btn-primary !w-[90%] sm:!w-min shadow-[0_12px_30px_-10px_rgba(16,185,129,0.6)] hover:shadow-[0_16px_40px_-10px_rgba(16,185,129,0.7)] transition-shadow"
               >
-                Learn more
+                {t("Learn more", "En savoir plus")}
                 <span class="material-symbols-outlined text-3xl ml-2">
                   trending_flat
                 </span>
@@ -107,13 +111,16 @@
                 <span
                   class="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400"
                 ></span>
-                98% uptime
+                {t("98% uptime", "98% de disponibilité")}
               </div>
               <div class="inline-flex items-center gap-2">
                 <span
                   class="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400"
                 ></span>
-                Local training on every site
+                {t(
+                  "Local training on every site",
+                  "Formation locale sur chaque site",
+                )}
               </div>
             </div>
           </div>
