@@ -80,10 +80,10 @@
             <div>
               <p class="text-gray-500 mb-1">{t("Email", "E-mail")}</p>
               <a
-                href="mailto:info@nexusenergy.com"
+                href="mailto:info@nexusenergygroup.org"
                 class="text-gray-700 hover:text-emerald-600 transition-colors"
               >
-                info@nexusenergy.com
+                info@nexusenergygroup.org
               </a>
             </div>
             <div>
