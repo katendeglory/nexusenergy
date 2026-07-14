@@ -1,0 +1,17 @@
+{
+  "name": "GKK SvelteKit 1.0",
+  "short_name": "GKK SvelteKit 1.0",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2A3443",
+  "background_color": "#2A3443",
+  "description": "A skeleton sveltekit and tailwind project",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
