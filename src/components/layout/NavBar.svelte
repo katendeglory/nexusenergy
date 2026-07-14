@@ -83,8 +83,8 @@
       <a class="brand flex items-center" href="/#home" aria-label="Go to home">
         <img src="/favicon.png" class="brand-logo" alt="home" />
         <div class="brand-text">
-          <span class="tracking-wide">New</span>
-          <span class="tracking-wide">Nexus</span>
+          <span class="tracking-wide">New Nexus</span>
+          <span class="tracking-wide">Energy</span>
         </div>
       </a>
 
@@ -191,7 +191,7 @@
       >
         <img src="/favicon.png" class="brand-logo" alt="home" />
         <div class="brand-text">
-          <span>Nexus</span>
+          <span>New Nexus</span>
           <span>Energy</span>
         </div>
       </a>

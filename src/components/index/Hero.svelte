@@ -66,8 +66,8 @@
               data-aos-delay="100"
               class="-ml-1 sm:-ml-2 md:-ml-4 h-font uppercase leading-[1.02] text-[2.9rem] sm:text-[3.6rem] md:text-[4.8rem] lg:text-[6.2rem]"
             >
-              <span class="text-br-green block">New</span>
-              <span class="block lg:!-mt-1">Nexus</span>
+              <span class="text-br-green block">New Nexus</span>
+              <span class="block lg:!-mt-1">Energy</span>
             </h1>
 
             <p
